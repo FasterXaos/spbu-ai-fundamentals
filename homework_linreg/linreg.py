@@ -45,7 +45,7 @@ for col in ('GarageType', 'GarageFinish', 'GarageQual', 'GarageCond'):
     allData[col] = allData[col].fillna('None')
 allData['GarageYrBlt'] = allData['GarageYrBlt'].fillna(0)
 
-for col in ('BsmtQual', 'BsmtCond', 'BsmtFinType1', 'BsmtFinType2'):
+for col in ('BsmtQual', 'BsmtCond', 'BsmtExposure', 'BsmtFinType1', 'BsmtFinType2'):
     allData[col] = allData[col].fillna('None')
 
 allData['MasVnrType'] = allData['MasVnrType'].fillna('None')
